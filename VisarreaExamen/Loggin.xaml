@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VisarreaExamen.Loggin">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="0" CornerRadius="0">
+            <Label Text="Inicio de Seccion" HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+        </Frame>
+
+        <Image Source="uisrael.jpg" WidthRequest="100" HeightRequest="100"/>
+
+        <Entry x:Name="txtUsuario" Placeholder="Ingrese su Usuario"/>
+        <Entry x:Name="txtContraseña" Placeholder="Ingrese su Contraseña" IsPassword="True"/>
+        <Button x:Name="btnAbrir" Text="Bienvenido" Clicked="btnAbrir_Clicked"/>
+        <Label x:Name="lblMensaje" Text="" TextColor="Red"/>
+
+    </StackLayout>
+
+</ContentPage>
